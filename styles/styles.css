@@ -3,6 +3,7 @@
 #content {
     max-width: 1600px;
     margin: 0 auto;
+    font-family: 'Oswald', Arial, sans-serif;
   }
 nav a {
     text-align: center;
@@ -36,7 +37,7 @@ background-color: white;
 color:navy;
 }
 .book, .join {
-background-color: white;
+background-color: rgb(134, 194, 216);
 text-decoration: none;
 padding: 15px 30px;
 border-radius: 5px;
