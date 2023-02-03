@@ -30,21 +30,25 @@ body {
   padding: 0;
 }
 header {
-background-color: rgb(157, 198, 213);
+background-color:  navy;
 }
 nav a:hover {
 background-color: white;
 color:navy;
 }
 .book, .join {
-background-color: rgb(134, 194, 216);
+background-color:  navy;
 text-decoration: none;
 padding: 15px 30px;
 border-radius: 5px;
+font-size: 18px;
+color: white;
+font-size: 18px;
+margin-top: 50px;
 }
 .book:hover, .join:hover {
-background-color: navy ;
-color: white;
+background-color: rgb(222, 222, 240) ;
+color:  navy;
 }
 .msg {
 background-color: white;
@@ -53,6 +57,9 @@ padding: 35px;
 }
 footer {
 background-color: white;
+color: navy;
+padding: 25px 50px;
+margin-top: 200px;
 }
 .home-title {
 color: navy;
@@ -62,26 +69,16 @@ margin-top: 10px;
 }
 h4 {
 color: navy;
-}
-.book, .join {
-color: navy;
-font-size: 18px;
-margin-top: 50px;
+font-family: 'Oswald', Arial, sans-serif;
 }
 .msg h2 {
 color: navy;
 font-family: 'Yeseva one', Arial, sans-serif;
-margin: 0;
 }
 .msg p {
 color: navy;
 font-size: .8em;
 padding-bottom: 15px;
-}
-footer {
-color: navy;
-padding: 25px 50px;
-margin-top: 200px;
 }
 footer a {
 color:navy;
@@ -120,4 +117,7 @@ border: 10px solid black;
 }
 main section img {
 box-sizing: border-box;
+}
+h2 {
+margin: 0;
 }
