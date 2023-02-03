@@ -29,7 +29,7 @@ body {
   padding: 0;
 }
 header {
-background-color: turquoise;
+background-color: rgb(157, 198, 213);
 }
 nav a:hover {
 background-color: white;
