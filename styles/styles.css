@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Oswald:wght@200;700&family=Yeseva+One&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -6,6 +8,7 @@ nav a {
     text-align: center;
     color: navy;
     text-decoration: none;
+    padding: 35px;
   }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
@@ -21,7 +24,9 @@ main section {
     background-color: white;
 }
 body {
-  background-color: rgb(134, 194, 216) ;
+  background-color: rgb(134, 194, 216);
+  margin: 0;
+  padding: 0;
 }
 header {
 background-color: white;
@@ -33,6 +38,8 @@ color:navy;
 .book, .join {
 background-color: white;
 text-decoration: none;
+padding: 15px 30px;
+border-radius: 5px;
 }
 .book:hover, .join:hover {
 background-color: navy ;
@@ -40,27 +47,40 @@ color: white;
 }
 .msg {
 background-color: white;
+line-height: 1.5em;
+padding: 35px;
 }
 footer {
 background-color: white;
 }
 .home-title {
 color: navy;
+font-family: 'Yeseva one', Arial, sans-serif;
+font-size: 2em;
+margin-top: 10px;
 }
 h4 {
 color: navy;
 }
 .book, .join {
 color: navy;
+font-size: 18px;
+margin-top: 50px;
 }
 .msg h2 {
 color: navy;
+font-family: 'Yeseva one', Arial, sans-serif;
+margin: 0;
 }
 .msg p {
 color: navy;
+font-size: .8em;
+padding-bottom: 15px;
 }
 footer {
 color: navy;
+padding: 25px 50px;
+margin-top: 200px;
 }
 footer a {
 color:navy;
@@ -74,6 +94,7 @@ color: navy;
 }
 .icon {
   width: 80px;
+  padding-top: 10px;
 }
 #hero-img {
   width: 100%;
@@ -84,3 +105,18 @@ footer p {
 footer p a:hover {
   text-decoration: underline;
 }    
+#logo_link {
+  padding-top: 5px;
+}
+footer .social img {
+  padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card {
+  margin: 200px 0;
+}
+.card-img { 
+border: 10px solid black;
+}
+main section img {
+box-sizing: border-box;
+}
