@@ -30,7 +30,7 @@ body {
   padding: 0;
 }
 header {
-background-color:  navy;
+background-color: rgb(135, 178, 213);
 }
 nav a:hover {
 background-color: white;
