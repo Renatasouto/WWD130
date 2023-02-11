@@ -1,0 +1,30 @@
+img {
+    float:left;
+    max-width: 55%;
+    width: 60%;
+    background-color: white;
+    margin-left: -1%;
+    margin-top: -3%;
+    position: fixed;
+}
+body {
+    background-color: rgb(211, 203, 203);
+}
+#p1 {
+    font-size: 180px;
+    color: black;
+    position: fixed;
+    margin-left: 110px;
+    letter-spacing: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+footer p {
+    font-size: 80px;
+    color: rgb(130, 33, 33);
+    position: fixed;
+    letter-spacing: 10px;
+    margin-left: 870px;
+    margin-top: 540px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
