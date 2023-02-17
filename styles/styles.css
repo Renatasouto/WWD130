@@ -127,9 +127,9 @@ footer .social img {
   margin: 200px 0;
 }
 .card-img { 
-  border: 10px solid black;
+  border: 10px solid rgb(237, 233, 13);
   transition: transform .5s;
-  box-shadow: 5px 5px 10px rgb(237, 233, 13);
+  box-shadow: 5px 5px 10px #6f7364;
 }
 img {
   box-sizing: border-box;
