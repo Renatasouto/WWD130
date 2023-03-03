@@ -198,8 +198,7 @@ nav {
   align-items: center;
 } 
 #hero-img-faq {
-  width: 97%;
-  margin-left: 25px;
+  width: 100%;
 }
 #hero-msg-faq {
   grid-column: 2/3;
