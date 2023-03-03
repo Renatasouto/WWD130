@@ -1,0 +1,565 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://byui-cse.github.io/cse110-course/lesson09/teach.html
+Subject: CSE 110 - Course Materials
+Date: Thu, 2 Mar 2023 17:39:32 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--CxfUDXk2f5zPXUEtbbwtnPsEdrNwRC9Vh0mtG72MOU----"
+
+
+------MultipartBoundary--CxfUDXk2f5zPXUEtbbwtnPsEdrNwRC9Vh0mtG72MOU----
+Content-Type: text/html
+Content-ID: <frame-58AF98B100663E388C1A5B084B8AEF6A@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://byui-cse.github.io/cse110-course/lesson09/teach.html
+
+<!DOCTYPE html><html lang=3D"en"><head><meta http-equiv=3D"Content-Type" co=
+ntent=3D"text/html; charset=3DUTF-8">
+   =20
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=
+=3D1.0">
+    <meta http-equiv=3D"X-UA-Compatible" content=3D"ie=3Dedge">
+    <link rel=3D"stylesheet" type=3D"text/css" href=3D"https://byui-cse.git=
+hub.io/cse110-course/site/style.css">
+    <title>CSE 110 - Course Materials</title>
+</head>
+<body>
+    <header id=3D"courseTitle">
+        <span class=3D"icon-byui-logo"></span>
+        <h1>CSE 110 | Programming Building Blocks</h1>
+    </header>
+    <article>
+        <h1>09 Teach: Team Activity</h1>
+        <heading class=3D"subtitle">Lists of Numbers</heading>
+
+        <h2>Assignment</h2>
+        <p>Ask the user for a series of numbers, and append each one to a l=
+ist. Stop when they enter <code>0</code>.</p>
+
+        <p>Once you have a list, have your program do the following:</p>
+
+        <h3>Core Requirements</h3>
+        <p>Work through these core requirements step-by-step to complete th=
+e program. Please don't skip ahead and do the whole thing at once, because =
+others on your team may benefit from building the program up slowly.</p>
+
+        <ol>
+            <li><p>Compute the sum, or total, of the numbers in the list.</=
+p></li>
+            <li><p>Compute the average of the numbers in the list.</p></li>
+            <li><p>Find the maximum, or largest, number in the list.</p></l=
+i>
+        </ol>
+
+        <p>The following shows the expected output:</p>
+
+<pre><code class=3D"plaintext hljs">
+Enter a list of numbers, type 0 when finished.
+Enter number: 18
+Enter number: 36
+Enter number: 2
+Enter number: 48
+Enter number: 6
+Enter number: 12
+Enter number: 9
+Enter number: 0
+The sum is: 131
+The average is: 18.714285714285715
+The largest number is: 48
+</code></pre>
+
+        <h3>Stretch Challenge</h3>
+        <ol>
+            <li><p>Have the user enter both positive and negative numbers, =
+then find the smallest positive number (the positive number that is closest=
+ to zero).</p></li>
+            <li><p>Sort the numbers in the list and display the new, sorted=
+ list. Hint: There are python libraries that can help you here, try searchi=
+ng the internet for them.</p></li>
+        </ol>
+
+        <p>The following shows the expected output after completing the str=
+etch challenges:</p>
+
+<pre><code class=3D"plaintext hljs">
+Enter a list of numbers, type 0 when finished.
+Enter number: 3
+Enter number: 5
+Enter number: 7
+Enter number: 3
+Enter number: 2
+Enter number: -1
+Enter number: -4
+Enter number: -8
+Enter number: 0
+The sum is: 7
+The average is: 0.875
+The largest number is: 7
+The smallest positive number is: 2
+The sorted list is:
+-8
+-4
+-1
+2
+3
+3
+5
+7
+</code></pre>
+
+        <h2>Sample Solution</h2>
+        <p>When your program is finished, please view the sample solution f=
+or this program to compare it to your approach.</p>
+
+        <p>You should work to complete this team activity for the one hour =
+period first, without looking at the sample solution. However, if you have =
+worked on it for at least an hour and are still having problems, you may fe=
+el free to use the sample solution to help you finish your program.</p>
+
+        <ul>
+            <li><p>Sample solution (core requirements and stretch challenge=
+s): <a href=3D"https://byui-cse.github.io/cse110-course/lesson09/teach09_sa=
+mple_py.html" target=3D"_blank">teach09_sample.py</a></p></li>
+        </ul>
+
+        <h2>Submission</h2>
+        <p>When complete, please report your progress in the associated I-L=
+earn quiz.</p>
+        <p>If you decided to do additional work on the program after your t=
+eam activity, either by yourself or with others, feel free to include that =
+additional work when you report on your progress in I-Learn.</p>
+
+    </article>
+
+   =20
+   =20
+=20
+
+</body></html>
+------MultipartBoundary--CxfUDXk2f5zPXUEtbbwtnPsEdrNwRC9Vh0mtG72MOU----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://byui-cse.github.io/cse110-course/site/style.css
+
+@charset "utf-8";
+
+@import url("reset.css");
+
+@import url("./js/highlight/styles/monokai_sublime.css");
+
+@import url("https://fonts.googleapis.com/css?family=3DOpen+Sans:400,400ita=
+lic,700");
+
+@font-face { font-family: icomoon; src: url("./fonts/icomoon.ttf") format("=
+truetype"), url("./fonts/icomoon.woff") format("woff"); font-weight: normal=
+; font-style: normal; }
+
+.icon-byui-logo::before { content: "=EE=80=80"; box-sizing: border-box; }
+
+.icon-byui-logo { font-size: 75px; color: rgb(255, 255, 255); float: left; =
+margin-top: -22px; padding-top: 0px; font-family: icomoon; font-style: norm=
+al; font-weight: normal; font-variant: normal; text-transform: none; line-h=
+eight: 1; -webkit-font-smoothing: antialiased; }
+
+body { font-family: "Open Sans", helvetica, arial, sans-serif; background: =
+rgb(254, 254, 254); color: rgb(4, 4, 4); counter-reset: h3 0; }
+
+#courseTitle { background: rgb(50, 107, 169); padding: 25px; }
+
+#courseTitle h1 { color: rgb(255, 255, 255); font-size: 30px; display: inli=
+ne-block; vertical-align: middle; margin-left: 20px; }
+
+#courseTitle .logo { width: 64px; display: inline-block; vertical-align: mi=
+ddle; padding: 0px 20px; border-right: 1px solid rgb(255, 255, 255); }
+
+pre code { font-family: Menlo, Monaco, Consolas, monospace; font-size: 14px=
+; line-height: 1.4em; margin: 20px auto; border: 1px solid rgb(204, 204, 20=
+4); }
+
+pre code.hljs { padding-bottom: 25px; }
+
+code .user-input { text-decoration: underline; }
+
+img { max-width: 100%; }
+
+img.screenshot { display: block; max-height: 60px; margin: 0px auto 0.5em; =
+}
+
+img.screenshot-large { display: block; max-height: 200px; margin: 0px auto =
+0.5em; }
+
+p code, li code { font-size: 18px; font-family: Menlo, Monaco, Consolas, mo=
+nospace; font-weight: bold; }
+
+.java.hljs { padding: 15px; }
+
+article { margin: 10px auto; max-width: 750px; padding: 20px; }
+
+article p { font-size: 22px; line-height: 1.4em; margin-bottom: 1em; }
+
+article em { font-style: italic; color: rgb(68, 68, 68); font-size: 17px; }
+
+article strong { font-weight: bold; color: rgb(204, 0, 0); }
+
+article h1 { text-align: center; font-size: 36px; margin-bottom: 1em; }
+
+article h2 { font-size: 26px; font-weight: bold; margin: 40px 0px 10px; pad=
+ding-bottom: 0.25em; border-bottom: 1px solid rgb(4, 4, 4); counter-reset: =
+h3 0; }
+
+article h3 { color: rgb(0, 106, 185); text-transform: uppercase; padding-to=
+p: 10px; margin-bottom: 1em; font-weight: bold; }
+
+article h4 { padding-top: 10px; margin-bottom: 0.5em; font-weight: bold; }
+
+aside.pull-right, aside.pull-left { position: absolute; right: 5px; width: =
+200px; background: rgb(0, 106, 185); padding: 13px; margin: 0px 1.5%; }
+
+aside.pull-left { left: 5px; right: 0px; }
+
+aside.stay-middle { background: rgb(0, 106, 185); padding: 13px; margin: 15=
+px; }
+
+aside.pull-right p, aside.pull-left p, aside.stay-middle p { color: white; =
+font-size: 16px; }
+
+aside.pull-right strong, aside.pull-left strong { color: black; font-size: =
+18px; }
+
+aside heading { color: white; font-size: 18px; font-weight: bold; display: =
+block; padding-bottom: 1.25em; }
+
+aside em { color: white; font-weight: bold; }
+
+article ul { margin: 0px 0px 1em 2em; }
+
+article ol { margin: 0px 0px 1em 3em; }
+
+article ol li { list-style: decimal-leading-zero; font-size: 18px; color: r=
+gb(0, 106, 185); margin-bottom: 1em; border-left: 2px solid rgb(204, 204, 2=
+04); }
+
+article h3::before { content: counter(h3, upper-roman) "."; counter-increme=
+nt: h3 1; margin-right: 10px; }
+
+article li p { font-size: 18px; margin-bottom: 0.5em; color: rgb(4, 4, 4); =
+margin-left: 10px; }
+
+article ol ul li { list-style: none; border-left: none; }
+
+article ul li p::before { content: "=C2=BB"; color: rgb(0, 106, 185); font-=
+size: 24px; margin-right: 0.5em; }
+
+@media only screen and (max-width: 1250px) {
+  aside.pull-right, aside.pull-left { width: 96.5%; position: relative; pad=
+ding: 13px; margin: 0px 0px 15px; right: 0px; left: 0px; }
+}
+
+table.code-examples { margin-bottom: 20px; margin-left: auto; margin-right:=
+ auto; }
+
+table.code-examples thead { text-align: center; font-weight: bold; }
+
+table.code-examples thead td { padding-bottom: 20px; }
+
+table.code-examples p { font-size: 1em; padding: 0px; margin: 0px; }
+
+table.code-examples td { font-size: 1em; padding: 10px; border: 1px solid r=
+gb(200, 200, 200); }
+
+.table-small { font-size: small; margin-bottom: 20px; }
+
+.table-small p { font-size: small; }
+
+.table-small td { border: 1px solid rgb(200, 200, 200); padding: 3px; }
+
+.table-small thead { text-align: center; font-weight: bold; }
+
+.table-small ul { list-style-position: inside; margin-left: 10px; padding-l=
+eft: 0px; text-indent: -10px; }
+
+.table-small li { padding-left: 10px; }
+
+.class-diagrams { text-align: center; }
+
+.class-diagram-spacer { background: rgb(239, 239, 239); padding: 0px; }
+
+.table-class-diagram tr.class-diagram-spacer td { padding: 0px; border: 1px=
+ solid rgb(239, 239, 239); }
+
+.table-class-diagram { border: 1px solid rgb(204, 204, 204); border-collaps=
+e: collapse; margin-left: 20px; margin-bottom: 10px; display: inline-block;=
+ vertical-align: top; text-align: left; font-family: Menlo, Monaco, Consola=
+s, fixed; }
+
+.table-class-diagram th { background: rgb(57, 129, 178); color: rgb(239, 23=
+9, 239); text-align: center; padding-right: 5px; padding-bottom: 5px; paddi=
+ng-left: 5px; padding-top: 5px !important; }
+
+.table-class-diagram tr td { padding-right: 5px; padding-bottom: 5px; paddi=
+ng-left: 5px; border-right: 1px dashed rgb(204, 204, 204); padding-top: 5px=
+ !important; }
+
+.table-class-diagram tr { border-bottom: 1px solid rgb(238, 238, 238); }
+
+.table-class-diagram tr:last-child, .table-class-diagram tr:first-child { b=
+order-bottom: none; }
+
+.tips { background-color: rgb(230, 230, 230); margin-left: 20px; margin-rig=
+ht: 10px; margin-bottom: 10px; padding: 10px; }
+
+.tips p:first-child { font-weight: bold; }
+
+.tips p { font-size: 0.8em; }
+
+.tips p code { font-size: 1em; font-family: Menlo, Monaco, Consolas, monosp=
+ace; font-weight: bold; }
+
+p.subtitle { text-align: center; margin-top: -30px; color: rgb(15, 108, 182=
+); font-size: 1.45em; }
+
+heading.subtitle { text-align: center; margin-top: -30px; color: rgb(15, 10=
+8, 182); font-size: 1.45em; display: block; }
+
+.img-tutorial { border: 0px; display: block; margin-left: auto; margin-righ=
+t: auto; }
+
+span.subtitle { font-weight: bold; }
+
+.img-center { display: block; margin-left: auto; margin-right: auto; }
+
+li heading { font-weight: bold; }
+------MultipartBoundary--CxfUDXk2f5zPXUEtbbwtnPsEdrNwRC9Vh0mtG72MOU----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://byui-cse.github.io/cse110-course/site/reset.css
+
+@charset "utf-8";
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, b=
+lockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, i=
+mg, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i=
+, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, cap=
+tion, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, emb=
+ed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, se=
+ction, summary, time, mark, audio, video { margin: 0px; padding: 0px; borde=
+r: 0px; font: inherit; vertical-align: baseline; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, =
+nav, section { display: block; }
+
+body { line-height: 1; }
+
+ol, ul { list-style: none; }
+
+blockquote, q { quotes: none; }
+
+blockquote::before, blockquote::after, q::before, q::after { content: none;=
+ }
+
+table { border-collapse: collapse; border-spacing: 0px; }
+------MultipartBoundary--CxfUDXk2f5zPXUEtbbwtnPsEdrNwRC9Vh0mtG72MOU----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://byui-cse.github.io/cse110-course/site/js/highlight/styles/monokai_sublime.css
+
+@charset "utf-8";
+
+.hljs { display: block; overflow-x: auto; padding: 0.5em; background: rgb(3=
+5, 36, 31); text-size-adjust: none; }
+
+.hljs, .hljs-tag, .css .hljs-rule, .css .hljs-value, .aspectj .hljs-functio=
+n, .css .hljs-function .hljs-preprocessor, .hljs-pragma { color: rgb(248, 2=
+48, 242); }
+
+.hljs-strongemphasis, .hljs-strong, .hljs-emphasis { color: rgb(168, 168, 1=
+62); }
+
+.hljs-bullet, .hljs-blockquote, .hljs-horizontal_rule, .hljs-number, .hljs-=
+regexp, .alias .hljs-keyword, .hljs-literal, .hljs-hexcolor { color: rgb(17=
+4, 129, 255); }
+
+.hljs-tag .hljs-value, .hljs-code, .hljs-title, .css .hljs-class, .hljs-cla=
+ss .hljs-title:last-child { color: rgb(166, 226, 46); }
+
+.hljs-link_url { font-size: 80%; }
+
+.hljs-strong, .hljs-strongemphasis { font-weight: bold; }
+
+.hljs-emphasis, .hljs-strongemphasis, .hljs-class .hljs-title:last-child, .=
+hljs-typename { font-style: italic; }
+
+.hljs-keyword, .ruby .hljs-class .hljs-keyword:first-child, .ruby .hljs-fun=
+ction .hljs-keyword, .hljs-function, .hljs-change, .hljs-winutils, .hljs-fl=
+ow, .nginx .hljs-title, .tex .hljs-special, .hljs-header, .hljs-attribute, =
+.hljs-symbol, .hljs-symbol .hljs-string, .hljs-tag .hljs-title, .hljs-value=
+, .alias .hljs-keyword:first-child, .css .hljs-tag, .css .unit, .css .hljs-=
+important { color: rgb(249, 38, 114); }
+
+.hljs-function .hljs-keyword, .hljs-class .hljs-keyword:first-child, .hljs-=
+aspect .hljs-keyword:first-child, .hljs-constant, .hljs-typename, .hljs-nam=
+e, .css .hljs-attribute { color: rgb(102, 217, 239); }
+
+.hljs-variable, .hljs-params, .hljs-class .hljs-title, .hljs-aspect .hljs-t=
+itle { color: rgb(248, 248, 242); }
+
+.hljs-string, .css .hljs-id, .hljs-subst, .hljs-type, .ruby .hljs-class .hl=
+js-parent, .hljs-built_in, .django .hljs-template_tag, .django .hljs-variab=
+le, .smalltalk .hljs-class, .django .hljs-filter .hljs-argument, .smalltalk=
+ .hljs-localvars, .smalltalk .hljs-array, .hljs-attr_selector, .hljs-pseudo=
+, .hljs-addition, .hljs-stream, .hljs-envvar, .apache .hljs-tag, .apache .h=
+ljs-cbracket, .tex .hljs-command, .hljs-prompt, .hljs-link_label, .hljs-lin=
+k_url { color: rgb(230, 219, 116); }
+
+.hljs-comment, .hljs-annotation, .hljs-decorator, .hljs-pi, .hljs-doctype, =
+.hljs-deletion, .hljs-shebang, .apache .hljs-sqbracket, .tex .hljs-formula =
+{ color: rgb(117, 113, 94); }
+
+.coffeescript .javascript, .javascript .xml, .tex .hljs-formula, .xml .java=
+script, .xml .vbscript, .xml .css, .xml .hljs-cdata, .xml .php, .php .xml {=
+ opacity: 0.5; }
+------MultipartBoundary--CxfUDXk2f5zPXUEtbbwtnPsEdrNwRC9Vh0mtG72MOU----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700
+
+@charset "utf-8";
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 400=
+; font-stretch: 100%; src: url("https://fonts.gstatic.com/s/opensans/v34/me=
+mQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk8ZkWV0ewIMUdjFXmSU_.woff=
+2") format("woff2"); unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-=
+2DFF, U+A640-A69F, U+FE2E-FE2F; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 400=
+; font-stretch: 100%; src: url("https://fonts.gstatic.com/s/opensans/v34/me=
+mQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk8ZkWVQewIMUdjFXmSU_.woff=
+2") format("woff2"); unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1,=
+ U+2116; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 400=
+; font-stretch: 100%; src: url("https://fonts.gstatic.com/s/opensans/v34/me=
+mQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk8ZkWVwewIMUdjFXmSU_.woff=
+2") format("woff2"); unicode-range: U+1F00-1FFF; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 400=
+; font-stretch: 100%; src: url("https://fonts.gstatic.com/s/opensans/v34/me=
+mQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk8ZkWVMewIMUdjFXmSU_.woff=
+2") format("woff2"); unicode-range: U+370-3FF; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 400=
+; font-stretch: 100%; src: url("https://fonts.gstatic.com/s/opensans/v34/me=
+mQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk8ZkWVIewIMUdjFXmSU_.woff=
+2") format("woff2"); unicode-range: U+590-5FF, U+200C-2010, U+20AA, U+25CC,=
+ U+FB1D-FB4F; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 400=
+; font-stretch: 100%; src: url("https://fonts.gstatic.com/s/opensans/v34/me=
+mQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk8ZkWV8ewIMUdjFXmSU_.woff=
+2") format("woff2"); unicode-range: U+102-103, U+110-111, U+128-129, U+168-=
+169, U+1A0-1A1, U+1AF-1B0, U+1EA0-1EF9, U+20AB; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 400=
+; font-stretch: 100%; src: url("https://fonts.gstatic.com/s/opensans/v34/me=
+mQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk8ZkWV4ewIMUdjFXmSU_.woff=
+2") format("woff2"); unicode-range: U+100-24F, U+259, U+1E00-1EFF, U+2020, =
+U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 400=
+; font-stretch: 100%; src: url("https://fonts.gstatic.com/s/opensans/v34/me=
+mQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk8ZkWVAewIMUdjFXmQ.woff2"=
+) format("woff2"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C=
+6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+221=
+2, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 400=
+; font-stretch: 100%; src: url("https://fonts.gstatic.com/s/opensans/v34/me=
+mvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSKmu0SC55K5gw.woff2") format("woff2"); u=
+nicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+F=
+E2E-FE2F; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 400=
+; font-stretch: 100%; src: url("https://fonts.gstatic.com/s/opensans/v34/me=
+mvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSumu0SC55K5gw.woff2") format("woff2"); u=
+nicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 400=
+; font-stretch: 100%; src: url("https://fonts.gstatic.com/s/opensans/v34/me=
+mvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSOmu0SC55K5gw.woff2") format("woff2"); u=
+nicode-range: U+1F00-1FFF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 400=
+; font-stretch: 100%; src: url("https://fonts.gstatic.com/s/opensans/v34/me=
+mvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSymu0SC55K5gw.woff2") format("woff2"); u=
+nicode-range: U+370-3FF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 400=
+; font-stretch: 100%; src: url("https://fonts.gstatic.com/s/opensans/v34/me=
+mvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS2mu0SC55K5gw.woff2") format("woff2"); u=
+nicode-range: U+590-5FF, U+200C-2010, U+20AA, U+25CC, U+FB1D-FB4F; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 400=
+; font-stretch: 100%; src: url("https://fonts.gstatic.com/s/opensans/v34/me=
+mvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSCmu0SC55K5gw.woff2") format("woff2"); u=
+nicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-=
+1B0, U+1EA0-1EF9, U+20AB; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 400=
+; font-stretch: 100%; src: url("https://fonts.gstatic.com/s/opensans/v34/me=
+mvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSGmu0SC55K5gw.woff2") format("woff2"); u=
+nicode-range: U+100-24F, U+259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20=
+CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 400=
+; font-stretch: 100%; src: url("https://fonts.gstatic.com/s/opensans/v34/me=
+mvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-mu0SC55I.woff2") format("woff2"); unic=
+ode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000=
+-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FF=
+FD; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 700=
+; font-stretch: 100%; src: url("https://fonts.gstatic.com/s/opensans/v34/me=
+mvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSKmu0SC55K5gw.woff2") format("woff2"); u=
+nicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+F=
+E2E-FE2F; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 700=
+; font-stretch: 100%; src: url("https://fonts.gstatic.com/s/opensans/v34/me=
+mvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSumu0SC55K5gw.woff2") format("woff2"); u=
+nicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 700=
+; font-stretch: 100%; src: url("https://fonts.gstatic.com/s/opensans/v34/me=
+mvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSOmu0SC55K5gw.woff2") format("woff2"); u=
+nicode-range: U+1F00-1FFF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 700=
+; font-stretch: 100%; src: url("https://fonts.gstatic.com/s/opensans/v34/me=
+mvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSymu0SC55K5gw.woff2") format("woff2"); u=
+nicode-range: U+370-3FF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 700=
+; font-stretch: 100%; src: url("https://fonts.gstatic.com/s/opensans/v34/me=
+mvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS2mu0SC55K5gw.woff2") format("woff2"); u=
+nicode-range: U+590-5FF, U+200C-2010, U+20AA, U+25CC, U+FB1D-FB4F; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 700=
+; font-stretch: 100%; src: url("https://fonts.gstatic.com/s/opensans/v34/me=
+mvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSCmu0SC55K5gw.woff2") format("woff2"); u=
+nicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-=
+1B0, U+1EA0-1EF9, U+20AB; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 700=
+; font-stretch: 100%; src: url("https://fonts.gstatic.com/s/opensans/v34/me=
+mvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSGmu0SC55K5gw.woff2") format("woff2"); u=
+nicode-range: U+100-24F, U+259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20=
+CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 700=
+; font-stretch: 100%; src: url("https://fonts.gstatic.com/s/opensans/v34/me=
+mvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-mu0SC55I.woff2") format("woff2"); unic=
+ode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000=
+-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FF=
+FD; }
+------MultipartBoundary--CxfUDXk2f5zPXUEtbbwtnPsEdrNwRC9Vh0mtG72MOU------
