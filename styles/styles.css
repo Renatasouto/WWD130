@@ -75,17 +75,17 @@ footer {
 }
 .home-title {
   color: rgb(237, 233, 13);
-  font-family: 'Yeseva one';
+  font-family: 'Yeseva one', Arial, sans-serif;
   font-size: 3em;
   margin-top: 10px;
 }
 h4 {
   color: navy;
-  font-family: 'Oswald';
+  font-family: 'Oswald', Arial, sans-serif;
 }
 .msg h2 {
   color: navy;
-  font-family: 'Yeseva one';
+  font-family: 'Yeseva one', Arial, sans-serif;
 }
 .msg p {
   color: navy;
