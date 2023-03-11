@@ -140,7 +140,7 @@ nav {
   font-style: italic;
   color: black;
 }
-#title{
+.title{
   text-align: center;
   font-size: 40px;
   font-weight: bold;
@@ -181,7 +181,7 @@ nav {
   position: absolute;
   margin-top: -1100px;
 }
-#paragraph1{
+.paragraph1{
   text-align: justify;
   font-size: 20px;
   margin-left: 30px;
