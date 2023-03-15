@@ -218,9 +218,9 @@ nav {
 }
 #content{
   background-color: white;
-  height: 100vh; 
+  height: 120vh; 
   grid-column-start: 1;
-  grid-column-end: 7;
+  grid-column-end: 8;
   grid-row-start: 2;
   grid-row-end: 10;
   text-align: justify;
@@ -238,13 +238,14 @@ nav {
 }
 #content2{
   background-color: white;
-  height: 350vh; 
+  height: 340vh; 
   grid-column-start: 1;
   grid-column-end: 5;
   grid-row-start: 2;
   grid-row-end: 10;
   text-align: justify;
   margin: 40px;
+  margin-bottom: -5%;
 }
 #footer{
   background-color: #468030;
@@ -277,7 +278,7 @@ footer p {
 .img{
   width: 300px;
   max-width: 300px;
-  grid-column-start: 9;
+  grid-column-start: 8;
   grid-column-end: 10;
   grid-row-start: 7;
   grid-row-end: 9;
@@ -327,6 +328,14 @@ footer p {
   grid-column-start: 1;
   grid-column-end: 11;
 }
+.title_home {
+  font-size: 40px;
+  font-family: 'Oswald', Arial, Helvetica, sans-serif;
+  grid-row-start:4;
+  grid-row-end: 6;
+  grid-column-start: 1;
+  grid-column-end: 11;
+}
 .subtitle {
   font-weight: bold;
 }
@@ -351,11 +360,20 @@ footer p {
   grid-row-start: 3;
   grid-row-end: 10;
 }
+#paragraph_home{
+  text-align: justify;
+  font-size: 25px;
+  grid-column-start: 1;
+  grid-column-end: 7;
+  grid-row-start: 7;
+  grid-row-end: 10;
+}
 .paragraph1{
   text-align: justify;
   font-size: 20px;
   margin-top: 25px;
 }
+
 #study {
   color: #468030;
   text-decoration: none;
