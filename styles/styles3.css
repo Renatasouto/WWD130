@@ -18,7 +18,7 @@
 }
 #content1{
   background-color: white;
-  height: 200vh; 
+  height: 250vh; 
   grid-column-start: 1;
   grid-column-end: 7;
   grid-row-start: 2;
@@ -28,7 +28,7 @@
 }
 #content2{
   background-color: white;
-  height: 340vh; 
+  height: 400vh; 
   grid-column-start: 1;
   grid-column-end: 5;
   grid-row-start: 2;
@@ -85,7 +85,7 @@ footer p {
   max-width: 600px;
   grid-column-start:8;
   grid-column-end: 10;
-  grid-row-start: 4;
+  grid-row-start: 8;
   grid-row-end: 10;
   float:right;
 }
