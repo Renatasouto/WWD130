@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Lilita+One&family=Oswald:wght@200;700&family=Yeseva+One&display=swap');
+
+.container{
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(30, 2fr);
+}
+#footer{
+  background-color: #E89115;
+  grid-row-start: 200;
+  grid-row-end: 201;
+  grid-column-start: 1;
+  grid-column-end: 11;
+  display: flex;
+  justify-content: space-around;
+  color:#F3A6A0;
+  font-size: 25px;
+  padding-top: 1%;
+}
+#footer a:hover{
+  text-decoration: none;
+  color :white;
+  transition: .5s;
+}
+footer a {
+  color: #372E27;
+  text-decoration:none;
+  font-size: 25px;
+}
+footer p {
+  color:  #372E27;
+  text-align:  center;
+  padding-top: 15px;
+  padding-left: 50px;
+}
+header {
+  display: grid;
+  grid-template-columns: 150px auto;
+} 
+body{
+  margin:0;
+  background-color: #f5e7d2;
+}
+h1, h2, h3, h4, h5, p, span {
+  margin :0;
+  color:#666;
+}
+.container{
+  max-width: 1600px;
+  width: 100%;
+}
+header{
+  position: relative;
+  top: 0;
+  height: auto;
+  width: 100%;
+}
+nav{
+  position:fixed;
+  top:0;
+  height: 100px;
+  width:100%;
+  z-index: 1;
+  background-color: #E89115;
+  border-bottom: 1px solid #CCC;
+  font-size:30px ;
+}
+img{
+  width: 100px;
+}
+nav:after {
+  clear:both;
+  content: "";
+  display: block;
+}
+.nav-container {
+  max-width: 1200px;
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+}
+#logo {
+  width: 50px;
+  height: 50px;
+  margin-top: 25px;
+}
+.nav-container ul {
+  float: right;
+  height: 100px;
+  line-height: 100px;
+  margin: 0;
+}
+.nav-container li{
+  list-style: none;
+  float:left;
+  margin: 0 15px;
+}
+.nav-container li a{
+  text-decoration: none;
+  color :#372E27;
+  transition: .5s;
+}
+.nav-container li a:hover{
+  text-decoration: none;
+  color:white;
+  transition: .5s;
+}
+footer .social img{
+  padding-top: -10px;
+  width: 80px;
+}
+* {box-sizing: border-box}
+
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container0 {
+    margin-top: 185px ;
+    padding: 16px;
+    height: 70vh; 
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}
+  
+ 
