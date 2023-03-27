@@ -28,7 +28,7 @@
 }
 #content2{
   background-color: white;
-  height: 330vh; 
+  height: 360vh; 
   grid-column-start: 1;
   grid-column-end: 5;
   grid-row-start: 2;
@@ -85,8 +85,8 @@ footer p {
   max-width: 600px;
   grid-column-start:8;
   grid-column-end: 10;
-  grid-row-start: 8;
-  grid-row-end: 10;
+  grid-row-start: 9;
+  grid-row-end: 12;
   float:right;
 }
 .title{
@@ -112,7 +112,7 @@ footer p {
   font-size: 40px;
   font-family: 'Oswald', Arial, Helvetica, sans-serif;
   grid-row-start:2;
-  grid-row-end: 6;
+  grid-row-end: 5;
   grid-column-start: 1;
   grid-column-end: 11;
 }
@@ -162,7 +162,6 @@ footer p {
   font-size: 20px;
   margin-top: 25px;
 }
-
 #study {
   color: #468030;
   text-decoration: none;
@@ -261,7 +260,7 @@ footer .social img{
   grid-column-end: 10;
 }
 .materials2{
-  grid-row-start: 24;
+  grid-row-start: 22;
   grid-row-end: 30;
   grid-column-start: 1;
   grid-column-end: 10;
