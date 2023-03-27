@@ -28,7 +28,7 @@
 }
 #content2{
   background-color: white;
-  height: 360vh; 
+  height: 340vh; 
   grid-column-start: 1;
   grid-column-end: 5;
   grid-row-start: 2;
@@ -260,7 +260,7 @@ footer .social img{
   grid-column-end: 10;
 }
 .materials2{
-  grid-row-start: 22;
+  grid-row-start: 23;
   grid-row-end: 30;
   grid-column-start: 1;
   grid-column-end: 10;
