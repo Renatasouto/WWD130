@@ -28,7 +28,7 @@
 }
 #content2{
   background-color: white;
-  height: 400vh; 
+  height: 330vh; 
   grid-column-start: 1;
   grid-column-end: 5;
   grid-row-start: 2;
@@ -81,7 +81,7 @@ footer p {
   border-radius: 100%;
 }
 .img_codes{
-  width: 500px;
+  width: 400px;
   max-width: 600px;
   grid-column-start:8;
   grid-column-end: 10;
@@ -140,7 +140,6 @@ footer p {
   grid-column-end: 7;
   grid-row-start: 5;
   grid-row-end: 10;
-  
 }
 #paragraph_codes{
   text-align: justify;
@@ -262,7 +261,7 @@ footer .social img{
   grid-column-end: 10;
 }
 .materials2{
-  grid-row-start: 23;
+  grid-row-start: 24;
   grid-row-end: 30;
   grid-column-start: 1;
   grid-column-end: 10;
