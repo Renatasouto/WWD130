@@ -18,17 +18,17 @@
 }
 #content1{
   background-color: white;
-  height: 250vh; 
+  height: 205vh; 
   grid-column-start: 1;
   grid-column-end: 7;
   grid-row-start: 2;
-  grid-row-end: 10;
+  grid-row-end: 5;
   text-align: justify;
   margin: 40px;
 }
 #content2{
   background-color: white;
-  height: 360vh; 
+  height: 325vh; 
   grid-column-start: 1;
   grid-column-end: 5;
   grid-row-start: 2;
@@ -38,6 +38,18 @@
   margin-bottom: -5%;
 }
 #footer{
+  background-color: #468030;
+  grid-row-start: 200;
+  grid-row-end: 201;
+  grid-column-start: 1;
+  grid-column-end: 11;
+  display: flex;
+  justify-content: space-around;
+  color:#F3A6A0;
+  font-size: 25px;
+  padding-top: 1%;
+}
+#footer1{
   background-color: #468030;
   grid-row-start: 200;
   grid-row-end: 201;
@@ -100,11 +112,22 @@ footer p {
   grid-column-end: 11;
   color: black;
 }
+.title0{
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: 'Yeseva One', Arial, Helvetica, sans-serif;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 11;
+  color: black;
+}
 .title1 {
   font-size: 40px;
   font-family: 'Oswald', Arial, Helvetica, sans-serif;
-  grid-row-start:3;
-  grid-row-end: 6;
+  grid-row-start:2;
+  grid-row-end: 4;
   grid-column-start: 1;
   grid-column-end: 11;
 }
@@ -133,12 +156,18 @@ footer p {
   color: #468030;
   font-family: 'Oswald', Arial, Helvetica, sans-serif;
 }
+.hint1 {
+  font-size: 30px;
+  font-style: italic;
+  color: #468030;
+  font-family: 'Oswald', Arial, Helvetica, sans-serif;
+}
 #paragraph_study{
   text-align: justify;
   font-size: 25px;
   grid-column-start: 1;
   grid-column-end: 7;
-  grid-row-start: 5;
+  grid-row-start: 4;
   grid-row-end: 10;
 }
 #paragraph_codes{
